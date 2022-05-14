@@ -11,7 +11,10 @@
         android:theme="@style/Theme.Quizio">
         <activity
             android:name=".QuizQuestionsActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBarTheme"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
