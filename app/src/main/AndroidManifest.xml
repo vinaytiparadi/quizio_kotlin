@@ -10,9 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quizio">
         <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
             android:name=".QuizQuestionsActivity"
-            android:exported="false"/>
-
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
